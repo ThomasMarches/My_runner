@@ -27,5 +27,5 @@ void music_init(game_t *game)
     game->music.icon_music = sfMusic_createFromFile("assets/Music/icon.ogg");
     game->music.shoot = sfMusic_createFromFile("assets/Music/shoot.wav");
     game->music.win = sfMusic_createFromFile("assets/Music/win.ogg");
-    set_volume(game, 50);
+    set_volume(game, 0);
 }

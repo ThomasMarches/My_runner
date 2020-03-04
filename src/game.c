@@ -44,7 +44,6 @@ void init_game(game_t *game)
     init_parallax_planet(game, "assets/Image/planet.png");
     music_init(game);
     create_player(game);
-    text_init(game);
     init_launch(game);
 }
 

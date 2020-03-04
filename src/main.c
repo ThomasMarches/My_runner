@@ -21,6 +21,7 @@ int sfml_game_start(char **argv)
         random_map_generation(game);
     else if (init_map(argv[1], game) == 84)
         return (-1);
+    text_init(game);
     start_game(game);
     destroy_game(game);
     if (game->restarting == 1) {
